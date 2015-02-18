@@ -14,6 +14,8 @@
 		887DA48B1A9529D1007F9D06 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 887DA48A1A9529D1007F9D06 /* Images.xcassets */; };
 		887DA48E1A9529D1007F9D06 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 887DA48C1A9529D1007F9D06 /* LaunchScreen.xib */; };
 		887DA49A1A9529D1007F9D06 /* GoogleLikeFloatHeadsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 887DA4991A9529D1007F9D06 /* GoogleLikeFloatHeadsTests.m */; };
+		887DA4A51A952A28007F9D06 /* Floating-Heads.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 887DA4A31A952A28007F9D06 /* Floating-Heads.xcassets */; };
+		887DA4A61A952A28007F9D06 /* Zooming-Icons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 887DA4A41A952A28007F9D06 /* Zooming-Icons.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		887DA4931A9529D1007F9D06 /* GoogleLikeFloatHeadsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleLikeFloatHeadsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		887DA4981A9529D1007F9D06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		887DA4991A9529D1007F9D06 /* GoogleLikeFloatHeadsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoogleLikeFloatHeadsTests.m; sourceTree = "<group>"; };
+		887DA4A31A952A28007F9D06 /* Floating-Heads.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Floating-Heads.xcassets"; sourceTree = "<group>"; };
+		887DA4A41A952A28007F9D06 /* Zooming-Icons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Zooming-Icons.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +85,13 @@
 		887DA47C1A9529D1007F9D06 /* GoogleLikeFloatHeads */ = {
 			isa = PBXGroup;
 			children = (
-				887DA4811A9529D1007F9D06 /* AppDelegate.h */,
-				887DA4821A9529D1007F9D06 /* AppDelegate.m */,
 				887DA4841A9529D1007F9D06 /* ViewController.h */,
 				887DA4851A9529D1007F9D06 /* ViewController.m */,
 				887DA4871A9529D1007F9D06 /* Main.storyboard */,
-				887DA48A1A9529D1007F9D06 /* Images.xcassets */,
 				887DA48C1A9529D1007F9D06 /* LaunchScreen.xib */,
+				887DA48A1A9529D1007F9D06 /* Images.xcassets */,
+				887DA4A31A952A28007F9D06 /* Floating-Heads.xcassets */,
+				887DA4A41A952A28007F9D06 /* Zooming-Icons.xcassets */,
 				887DA47D1A9529D1007F9D06 /* Supporting Files */,
 			);
 			path = GoogleLikeFloatHeads;
@@ -96,6 +100,8 @@
 		887DA47D1A9529D1007F9D06 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				887DA4811A9529D1007F9D06 /* AppDelegate.h */,
+				887DA4821A9529D1007F9D06 /* AppDelegate.m */,
 				887DA47E1A9529D1007F9D06 /* Info.plist */,
 				887DA47F1A9529D1007F9D06 /* main.m */,
 			);
@@ -200,6 +206,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				887DA4891A9529D1007F9D06 /* Main.storyboard in Resources */,
+				887DA4A61A952A28007F9D06 /* Zooming-Icons.xcassets in Resources */,
+				887DA4A51A952A28007F9D06 /* Floating-Heads.xcassets in Resources */,
 				887DA48E1A9529D1007F9D06 /* LaunchScreen.xib in Resources */,
 				887DA48B1A9529D1007F9D06 /* Images.xcassets in Resources */,
 			);
