@@ -85,8 +85,7 @@
 		887DA47C1A9529D1007F9D06 /* GoogleLikeFloatHeads */ = {
 			isa = PBXGroup;
 			children = (
-				887DA4841A9529D1007F9D06 /* ViewController.h */,
-				887DA4851A9529D1007F9D06 /* ViewController.m */,
+				887DA4A71A952BC5007F9D06 /* Controller */,
 				887DA4871A9529D1007F9D06 /* Main.storyboard */,
 				887DA48C1A9529D1007F9D06 /* LaunchScreen.xib */,
 				887DA48A1A9529D1007F9D06 /* Images.xcassets */,
@@ -123,6 +122,15 @@
 				887DA4981A9529D1007F9D06 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		887DA4A71A952BC5007F9D06 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				887DA4841A9529D1007F9D06 /* ViewController.h */,
+				887DA4851A9529D1007F9D06 /* ViewController.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
