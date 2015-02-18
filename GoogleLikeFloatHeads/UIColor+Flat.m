@@ -26,4 +26,15 @@
     return [UIColor colorWithRed:0.9115 green:0.2994 blue:0.2335 alpha:1.0];
 }
 
+- (UIImage *)pixelImage {
+    UIGraphicsBeginImageContext(CGSizeMake(1, 1)); // 1x1 pixel image
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    CGContextSetFillColorWithColor(context, self.CGColor);
+    CGContextFillRect(context, CGRectMake(0, 0, 1, 1));
+    UIImage *pixelImage = UIGraphicsGetImageFromCurrentImageContext(); // get the context we've created above
+    
+    UIGraphicsEndImageContext();
+    return pixelImage;
+}
+
 @end

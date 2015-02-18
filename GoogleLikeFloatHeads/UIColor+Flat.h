@@ -14,5 +14,6 @@
 + (UIColor *)flathBlackColor;
 + (UIColor *)flathBlueColor;
 + (UIColor *)flathRedColor;
+- (UIImage *)pixelImage;
 
 @end
