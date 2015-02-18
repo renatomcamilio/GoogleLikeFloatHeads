@@ -16,6 +16,8 @@
 		887DA49A1A9529D1007F9D06 /* GoogleLikeFloatHeadsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 887DA4991A9529D1007F9D06 /* GoogleLikeFloatHeadsTests.m */; };
 		887DA4A51A952A28007F9D06 /* Floating-Heads.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 887DA4A31A952A28007F9D06 /* Floating-Heads.xcassets */; };
 		887DA4A61A952A28007F9D06 /* Zooming-Icons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 887DA4A41A952A28007F9D06 /* Zooming-Icons.xcassets */; };
+		887DA4AA1A952CEB007F9D06 /* FloatingButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 887DA4A91A952CEB007F9D06 /* FloatingButton.m */; };
+		887DA4AE1A952DC0007F9D06 /* UIColor+Flat.m in Sources */ = {isa = PBXBuildFile; fileRef = 887DA4AD1A952DC0007F9D06 /* UIColor+Flat.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,10 @@
 		887DA4991A9529D1007F9D06 /* GoogleLikeFloatHeadsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoogleLikeFloatHeadsTests.m; sourceTree = "<group>"; };
 		887DA4A31A952A28007F9D06 /* Floating-Heads.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Floating-Heads.xcassets"; sourceTree = "<group>"; };
 		887DA4A41A952A28007F9D06 /* Zooming-Icons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Zooming-Icons.xcassets"; sourceTree = "<group>"; };
+		887DA4A81A952CEB007F9D06 /* FloatingButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloatingButton.h; sourceTree = "<group>"; };
+		887DA4A91A952CEB007F9D06 /* FloatingButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloatingButton.m; sourceTree = "<group>"; };
+		887DA4AC1A952DC0007F9D06 /* UIColor+Flat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Flat.h"; sourceTree = "<group>"; };
+		887DA4AD1A952DC0007F9D06 /* UIColor+Flat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Flat.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,9 +91,10 @@
 		887DA47C1A9529D1007F9D06 /* GoogleLikeFloatHeads */ = {
 			isa = PBXGroup;
 			children = (
-				887DA4A71A952BC5007F9D06 /* Controller */,
 				887DA4871A9529D1007F9D06 /* Main.storyboard */,
 				887DA48C1A9529D1007F9D06 /* LaunchScreen.xib */,
+				887DA4A71A952BC5007F9D06 /* Controller */,
+				887DA4AB1A952CF4007F9D06 /* View */,
 				887DA48A1A9529D1007F9D06 /* Images.xcassets */,
 				887DA4A31A952A28007F9D06 /* Floating-Heads.xcassets */,
 				887DA4A41A952A28007F9D06 /* Zooming-Icons.xcassets */,
@@ -131,6 +138,17 @@
 				887DA4851A9529D1007F9D06 /* ViewController.m */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		887DA4AB1A952CF4007F9D06 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				887DA4A81A952CEB007F9D06 /* FloatingButton.h */,
+				887DA4A91A952CEB007F9D06 /* FloatingButton.m */,
+				887DA4AC1A952DC0007F9D06 /* UIColor+Flat.h */,
+				887DA4AD1A952DC0007F9D06 /* UIColor+Flat.m */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +256,8 @@
 				887DA4861A9529D1007F9D06 /* ViewController.m in Sources */,
 				887DA4831A9529D1007F9D06 /* AppDelegate.m in Sources */,
 				887DA4801A9529D1007F9D06 /* main.m in Sources */,
+				887DA4AA1A952CEB007F9D06 /* FloatingButton.m in Sources */,
+				887DA4AE1A952DC0007F9D06 /* UIColor+Flat.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
