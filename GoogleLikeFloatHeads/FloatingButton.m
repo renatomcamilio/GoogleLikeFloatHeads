@@ -7,6 +7,7 @@
 //
 
 #import "FloatingButton.h"
+#import "UIColor+Flat.h"
 
 @implementation FloatingButton
 
@@ -17,5 +18,26 @@
     // Drawing code
 }
 */
+
+- (void)awakeFromNib {
+    [super awakeFromNib];
+    
+    [self setup];
+}
+
+- (void)setup {
+    /*
+     
+     Set the tintColor to whiteColor()
+     Set the backgroundColor to flatBlueColor()
+     Set the button’s layer cornerRadius and maskToBounds to make it a Blue circle.
+     
+     */
+    
+    self.tintColor = [UIColor whiteColor];
+    self.backgroundColor = [UIColor flathBlueColor];
+    self.layer.cornerRadius = self.bounds.size.width/2; // half width makes it rounded
+    self.layer.masksToBounds = YES;
+}
 
 @end

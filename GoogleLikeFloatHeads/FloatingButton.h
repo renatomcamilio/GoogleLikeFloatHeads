@@ -10,4 +10,6 @@
 
 @interface FloatingButton : UIButton
 
+- (void)setup;
+
 @end
