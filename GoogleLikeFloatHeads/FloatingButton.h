@@ -10,6 +10,7 @@
 
 @interface FloatingButton : UIButton
 
-- (void)setup;
+- (void)setupButtonBackgroundColor:(UIColor *)backgroundColor andTintColor:(UIColor *)tintColor;
+- (instancetype)initWithFrame:(CGRect)frame andImage:(UIImage *)image andBackgroundColor:(UIColor *)backgroundColor;
 
 @end

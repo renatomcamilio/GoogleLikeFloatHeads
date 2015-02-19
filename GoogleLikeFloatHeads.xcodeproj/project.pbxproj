@@ -18,6 +18,7 @@
 		887DA4A61A952A28007F9D06 /* Zooming-Icons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 887DA4A41A952A28007F9D06 /* Zooming-Icons.xcassets */; };
 		887DA4AA1A952CEB007F9D06 /* FloatingButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 887DA4A91A952CEB007F9D06 /* FloatingButton.m */; };
 		887DA4AE1A952DC0007F9D06 /* UIColor+Flat.m in Sources */ = {isa = PBXBuildFile; fileRef = 887DA4AD1A952DC0007F9D06 /* UIColor+Flat.m */; };
+		887DA4B11A955916007F9D06 /* FloatingMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 887DA4B01A955916007F9D06 /* FloatingMenuController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		887DA4A91A952CEB007F9D06 /* FloatingButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloatingButton.m; sourceTree = "<group>"; };
 		887DA4AC1A952DC0007F9D06 /* UIColor+Flat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Flat.h"; sourceTree = "<group>"; };
 		887DA4AD1A952DC0007F9D06 /* UIColor+Flat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Flat.m"; sourceTree = "<group>"; };
+		887DA4AF1A955916007F9D06 /* FloatingMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloatingMenuController.h; sourceTree = "<group>"; };
+		887DA4B01A955916007F9D06 /* FloatingMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloatingMenuController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +139,8 @@
 			children = (
 				887DA4841A9529D1007F9D06 /* ViewController.h */,
 				887DA4851A9529D1007F9D06 /* ViewController.m */,
+				887DA4AF1A955916007F9D06 /* FloatingMenuController.h */,
+				887DA4B01A955916007F9D06 /* FloatingMenuController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -255,6 +260,7 @@
 			files = (
 				887DA4861A9529D1007F9D06 /* ViewController.m in Sources */,
 				887DA4831A9529D1007F9D06 /* AppDelegate.m in Sources */,
+				887DA4B11A955916007F9D06 /* FloatingMenuController.m in Sources */,
 				887DA4801A9529D1007F9D06 /* main.m in Sources */,
 				887DA4AA1A952CEB007F9D06 /* FloatingButton.m in Sources */,
 				887DA4AE1A952DC0007F9D06 /* UIColor+Flat.m in Sources */,
