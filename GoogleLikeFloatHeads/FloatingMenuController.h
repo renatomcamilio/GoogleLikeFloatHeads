@@ -7,6 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ViewController.h"
+#import "FloatingButton.h"
+#import "UIColor+Flat.h"
 
 @interface FloatingMenuController : UIViewController
 

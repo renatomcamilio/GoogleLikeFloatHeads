@@ -7,7 +7,6 @@
 //
 
 #import "FloatingButton.h"
-#import "UIColor+Flat.h"
 
 
 @implementation FloatingButton

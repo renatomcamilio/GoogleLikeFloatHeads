@@ -7,8 +7,7 @@
 //
 
 #import "FloatingMenuController.h"
-#import "FloatingButton.h"
-#import "UIColor+Flat.h"
+
 
 @interface FloatingMenuController ()
 @property (nonatomic, strong) UIView *fromView;
@@ -23,9 +22,7 @@
     
     self.blurredView.frame = self.view.bounds;
     
-    self.closeButton = [[FloatingButton alloc] initWithFrame:CGRectMake(20, 20, 40, 40)
-                                                    andImage:[UIImage imageNamed:@"icon-close"]
-                                          andBackgroundColor:[UIColor flatRedColor]];
+    [self setupCloseButton];
     [self.closeButton addTarget:self action:@selector(dismissSelf:) forControlEvents:UIControlEventTouchUpInside];
     
     [self.view addSubview:self.blurredView];
@@ -36,8 +33,15 @@
     [super didReceiveMemoryWarning];
 }
 
+- (void)setupCloseButton {
+    self.closeButton = [[FloatingButton alloc] initWithFrame:CGRectMake(0, 0, 50, 50)
+                                                    andImage:[UIImage imageNamed:@"icon-close"]
+                                          andBackgroundColor:[UIColor flatRedColor]];
+    self.closeButton.center = self.fromView.center;
+}
+
 - (void)dismissSelf:(id)sender {
-    [self dismissViewControllerAnimated:YES completion:nil];
+    [self dismissViewControllerAnimated:NO completion:nil];
 }
 
 - (instancetype)initFromView:(UIView *)fromView {

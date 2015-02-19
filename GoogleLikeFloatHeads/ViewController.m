@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "FloatingMenuController.h"
+
 
 @interface ViewController ()
 
@@ -24,8 +24,8 @@
 }
 
 - (IBAction)addButtonWasPressed:(id)sender {
-    FloatingMenuController *floatingMenuController = [[FloatingMenuController alloc] initFromView:self.view];
-    [self presentViewController:floatingMenuController animated:YES completion:nil];
+    FloatingMenuController *floatingMenuController = [[FloatingMenuController alloc] initFromView:self.addButton];
+    [self presentViewController:floatingMenuController animated:NO completion:nil];
 }
 
 @end

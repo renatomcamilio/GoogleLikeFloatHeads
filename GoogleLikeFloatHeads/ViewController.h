@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FloatingMenuController.h"
+#import "FloatingButton.h"
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet FloatingButton *addButton;
 
 @end
 
