@@ -23,7 +23,10 @@
     
     self.blurredView.frame = self.view.bounds;
     
-    self.closeButton = [[FloatingButton alloc] initWithFrame:CGRectMake(20, 20, 40, 40) andImage:[UIImage imageNamed:@"icon-close"] andBackgroundColor:[UIColor flatRedColor]];
+    self.closeButton = [[FloatingButton alloc] initWithFrame:CGRectMake(20, 20, 40, 40)
+                                                    andImage:[UIImage imageNamed:@"icon-close"]
+                                          andBackgroundColor:[UIColor flatRedColor]];
+    [self.closeButton addTarget:self action:@selector(dismissSelf:) forControlEvents:UIControlEventTouchUpInside];
     
     [self.view addSubview:self.blurredView];
     [self.view addSubview:self.closeButton];
@@ -31,6 +34,10 @@
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
+}
+
+- (void)dismissSelf:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 - (instancetype)initFromView:(UIView *)fromView {
